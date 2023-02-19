@@ -7,7 +7,7 @@ int main(){
         m,
         count=1;
     cin>>l>>m;
-    l++;
+    l++;//  0位置（数轴原点）也有一棵树
     int start[m],stop[m];
     while (count<=m){
         cin>>start[count-1]>>stop[count-1];
